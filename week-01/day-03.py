@@ -167,14 +167,18 @@ print(ListC)
 
 # # Solution 2 - using list and map
 
-# multiple_numbers = input("Enter integers only like so: 10 20 30\n")
+multiple_numbers = input("Enter integers only like so: 10 20 30\n")
 
-# to_array = multiple_numbers.split()
+to_array = multiple_numbers.split()
+test_list = ["10", "20", "30", "40"]
 
-# str_to_int = list(map(int, to_array))
+# str_to_int = map(int, to_array) ## saved as <map object at 0x108eb3fa0>
+# str_to_int = list(str_to_int)
+# The above but more succint below
+str_to_int = list(map(int, to_array))
 # print(str_to_int)
 
-# print(max(str_to_int))
-# print(sum(str_to_int))
-# str_to_int.sort(reverse=True)
-# print(str_to_int)
+print(max(str_to_int))
+print(sum(str_to_int))
+str_to_int.sort(reverse=True)
+print(str_to_int)
