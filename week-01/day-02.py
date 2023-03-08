@@ -138,7 +138,7 @@ print(area)
 
 distance_in_km = float(input("Enter distance in KM\n"))
 
-print({distance_in_km / 1.6})
+print(f"{distance_in_km / 1.6}")
 
 # Excercise 4
 "Temperature Unit Converter (Celcius to Fahernheit)"
