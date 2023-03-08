@@ -127,8 +127,8 @@ print(f"The sum of two numbers {input_one + input_two}\nMultiplication {input_on
 
 base = int(input("Enter base\n"))
 height = int(input("Enter height\n"))
-
-print(f"{(base / 2) * height}")
+area = (base * height) / 2
+print(area)
 
 
 # Excercise 3
