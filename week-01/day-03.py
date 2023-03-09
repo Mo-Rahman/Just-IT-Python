@@ -122,6 +122,8 @@ print(ListA)
 
 ListB = ["Ryan", "Lucy", "Kim", "Xin Zhao", "George", "Jake", "Oliver"]
 ListC = ListA + ListB
+# or
+# ListC = ListA.extend(ListB)
 print(ListC)
 
 
@@ -174,10 +176,36 @@ to_array = multiple_numbers.split()
 
 # str_to_int = map(int, to_array) ## saved as <map object at 0x108eb3fa0>
 # str_to_int = list(str_to_int)
-# The above but more succint below
+# Same as above but more succint below
 str_to_int = list(map(int, to_array))
 
 print(max(str_to_int))
 print(sum(str_to_int))
 str_to_int.sort(reverse=True)
 print(str_to_int)
+
+
+multiple_numbers = input("Enter integers only like so: 10 20 30\n")
+to_array = multiple_numbers.split()
+str_to_int = list(map(int, to_array))
+
+print(max(str_to_int))
+print(sum(str_to_int))
+str_to_int.sort(reverse=True)
+print(str_to_int)
+
+
+# multiple_numbers = input("Enter integers only like so: 10 20 30\n")
+
+# to_array_string = multiple_numbers.split()
+
+# array_list = []
+# for item in to_array_string:
+#     a = int(item)
+#     array_list.append(a)
+
+
+# print(max(array_list))
+# print(sum(array_list))
+# array_list.sort(reverse=True)
+# print(array_list)
