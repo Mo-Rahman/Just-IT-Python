@@ -209,3 +209,12 @@ print(str_to_int)
 # print(sum(array_list))
 # array_list.sort(reverse=True)
 # print(array_list)
+
+# Another solution
+n = input("Type a few numbers: ")
+numList = n.split()
+intList = [int(x) for x in numList]
+# print(type(intList))
+print(sum(intList))
+sortedList = sorted(intList)
+# print(sortedList)
