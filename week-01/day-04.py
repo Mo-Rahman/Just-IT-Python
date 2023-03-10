@@ -125,12 +125,12 @@ While loops "Requires a condition of True to run."
 
 # ### Excercise 1
 # "Given the Variable age, Depending on its value, using if statements, tell the user that they are of legal driving age or not."
-age = 12
+age = int(input("Enter age"))
 
-if age < 16:
-    print("too young to drive")
+if age < 17:
+    print("Too young to drive.")
 else:
-    print("apply for licence")
+    print("You are of driving age.")
 
 
 # ### Excercise 2
@@ -157,6 +157,21 @@ else:
 # else:
 #     print("Failed")
 
+# Richie's solution with 1 final print.
+
+# score = int(input("Please enter your score for a grade\n"))
+# grade = ""
+# if score >= 800:
+#     grade = "A"
+# elif score >= 600:
+#     grade = "B"
+# elif score >= 400:
+#     grade = "C"
+# elif score >= 200:
+#     grade = "D"
+# else:
+#     grade = "F"
+# print(f"Your final grade is {grade}")
 
 # ### Excercise 3
 # "Create a list with a sequence of the first 20 Sqaure Numbers (x ^2)"
@@ -167,18 +182,35 @@ for i in range(0, 20):
 print(times_list)
 print(len(times_list))
 
+# for i in range(1, 21):
+#     print(i*i)
+
 # ### Excercise 4
 # "Create a program that will ask the user to guess a passcode."
 # "If incorrect, The user must keep on guessing until their input matches the passcode, granting access when correct."
 
-password = "hello"
-correct = False
+# count = 0
+# password = "hello"
+# correct = False
 
-while not correct:
-    guess = input("Guess password\n")
-    if password == guess:
-        correct = True
-        print(f"You guessed the password: {password}")
-    else:
-        correct = False
-        print(f"Incorrect Guess {guess}")
+# while not correct:
+#     guess = input("Guess password\n")
+#     if password == guess:
+#         correct = True
+#         print(f"You guessed the password: {password}")
+#     else:
+#         correct = False
+#         print(f"Incorrect Guess {guess}")
+#         count += 1
+#         if count >= 3:
+#             correct = True
+#             print(f"You guessed {count} times\nTo many incorrect guesses")
+
+
+# passcode = "123456789"
+# guess = input("Enter Password")
+# # if the guess is not correct the while loop never happens.
+# while guess != passcode:
+#     guess = input("Invalid password")
+
+# print("Access granted")
