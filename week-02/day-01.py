@@ -49,6 +49,6 @@
 
 # print(sentence[::-1])
 
-sentence2 = "Unexpected item in bagging area"
-x = sentence2.count(" ")
-print(x)
+# sentence2 = "Unexpected item in bagging area"
+# x = sentence2.count(" ")
+# print(x)
