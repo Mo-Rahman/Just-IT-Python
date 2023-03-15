@@ -167,17 +167,17 @@ matrix = [
 
 # print(len(matrix))
 
-# shuffle the numbers inside the nested list
+# # shuffle the numbers inside the nested list
+# import random
+# matrix = [
+#     # 0 #1 #2
+#     [1, 2, 3],  # 0
+#     [4, 5, 6],  # 1
+#     [7, 8, 9]  # 2
+# ]
 
-matrix = [
-    # 0 #1 #2
-    [1, 2, 3],  # 0
-    [4, 5, 6],  # 1
-    [7, 8, 9]  # 2
-]
-
-# random.shuffle(matrix) - un-comment to also shuffle outside list.
-# shuffle the numbers inside the nested list
-for num in range(len(matrix)):
-    random.shuffle(matrix[num])
-print(matrix)
+# # random.shuffle(matrix) - un-comment to also shuffle outside list.
+# # shuffle the numbers inside the nested list
+# for num in range(len(matrix)):
+#     random.shuffle(matrix[num])
+# print(matrix)
