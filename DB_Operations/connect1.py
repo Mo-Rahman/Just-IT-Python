@@ -10,3 +10,7 @@ try:
         cursor = conn.cursor()
 except sql.OperationalError as e:
     print(f"Connection failed: {e}")
+
+
+# CRUD (create/read/update/delete)
+# Menu
