@@ -2,8 +2,9 @@ import logging
 
 "To Do: Predict, then Run, and then Investigate"
 # different logging methods and severity
+# week-02/2_Exceptions_Logging Starting Files
 logging.basicConfig(
-    filename=r"2_Exceptions_Logging Starting Files/myFilelog1.log", level=logging.DEBUG)
+    filename=r"week-02/2_Exceptions_Logging Starting Files/myFilelog1.log", level=logging.DEBUG)
 
 try:  # attempt to run the indented code block
     num1 = int(input(("Enter your first number: ")))

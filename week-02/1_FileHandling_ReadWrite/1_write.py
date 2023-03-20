@@ -24,6 +24,10 @@ Data files, text files
 
 # r+ for reading and writing files
 
+# r, w , a, r+
+# regular mode / context manager
+# Manages the closing of the file automatically.
+
 """
 Key file-handling techniques are:Open, Read ,Close, Write, Append
 The text file must be saved in the same location as your Python file for the program to work. 

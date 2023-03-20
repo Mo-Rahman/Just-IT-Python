@@ -1,0 +1,28 @@
+Perform CRUD Operations
+
+Create
+
+- Database(s)
+- Table(s)
+- Record(s)
+
+Read
+
+- Database(s)
+- Table(s)
+- Record(s)
+
+Update
+
+- Table(s)
+- Record(s)
+
+Delete
+
+- Database(s)
+- Table(s)
+- Record(s)
+
+Decomposition
+
+- Use of functions to build different parts as per funtionalities of Python CRUD application

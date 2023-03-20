@@ -1,0 +1,7 @@
+INFO:root:Divided 10 / 10 = 1.0
+WARNING:root:User attempted to divide by zero
+INFO:root:Divided 10 / 10 = 1.0
+WARNING:root:User attempted to divide by zero
+INFO:root:User attempted to divide by zero
+INFO:root:Divided 10 / 20 = 0.5
+WARNING:root:Divided 100 / 50 = 2.0
